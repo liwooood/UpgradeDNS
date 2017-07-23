@@ -10,10 +10,10 @@ import json,urllib,re
 
 
 #替换以下参数
-ID="LTAIVNVIwjej7EjA"
-Secret="kUTxP4NlpVDDQKaV8slRynKaFkorT9"
+ID="1"
+Secret="1"
 RegionId="cn-hangzhou"
-DomainName="onlinepay.site"
+DomainName="xxx.site"
 #想要自动修改的主机名和域名类型
 HostNameList = ['www','@']
 Types = "A"
