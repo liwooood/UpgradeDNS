@@ -20,3 +20,12 @@ python2.7 UpgradeDNS.py
 ```
 8. 其他
 如果ip经常会自动更换，也可以设置定时任务，定时执行脚本哦。
+
+9. 修改
+判断ip一样就不修改
+如果之前没有配置就加入配置
+
+linux定时，每分钟执行一次
+crontab -e
+* * * * * python /root/tools/UpgradeDNS/UpgradeDNS.py
+
